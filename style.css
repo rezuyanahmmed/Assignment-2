@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A0B2E;
+}
+
+
+header {
+  background-color: #1A0B2E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 100%;
+
+  gap: 314px;
+  padding: 30px 346px 30px 200px;
+}
+
+header .tech {
+  color: white;
+  padding-left: 150px;
+}
+
+header span {
+  color: #FB09B4;
+}
+
+header nav ul {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  color: white;
+}
+
+.nav-btn button {
+  background-color: #FB09B4;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 8px;
+  display: flex;
+
+}
+
+.nav-btn i {
+  padding-top: 2px;
+}
+
+main {
+  background-image: url(assets/hero-bg.png);
+  height: 760px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(73, 66, 66);
+  position: relative;
+}
+
+main .img-1 {
+  height: 350px;
+  /* width:300px; */
+  padding-left: 50px;
+  position: absolute;
+  top: 110px;
+  left: 410px;
+}
+
+main .img-2 {
+  height: 200px;
+  position: absolute;
+  top: 180px;
+  left: 570px;
+}
+
+main .wave {
+  color: white;
+  padding-top: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.p-wave {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-wave h2 {
+  font-size: 60px;
+}
+
+.p-wave p {
+  font-size: 16px;
+  color: 300px;
+}
+
+.p-wave .btn-1 {
+  background-color: #FB09B4;
+  border-radius: 50px;
+  padding: 8px;
+  border: none;
+}
+
+.p-wave .btn-2 {
+  border: 2px solid #00FF88;
+  border-radius: 50px;
+  padding: 8px;
+  color: #00FF88;
+  background-color: transparent;
+}
+
+.podcast {
+  background-color: #1A0B2E;
+  width: 100%;
+  height: 646px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.about {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  border-bottom: 1px solid rgb(82, 78, 78);
+  padding-bottom: 80px;
+}
+
+.info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.podcast h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.podcast p {
+  font-size: 14px;
+  font-weight: 300px;
+  color: rgb(190, 186, 186);
+}
+
+.k {
+  display: flex;
+  gap: 80px;
+}
+
+.k h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00FF88;
+  padding-top: 80px;
+}
+
+/* Grid section */
+
+
+
+
+
+
+
+/* Episode section */
+.container {
+  height: auto;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.container h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.container p {
+  color: #b5b1b1;
+  font-size: 16px;
+  font-weight: 300px;
+  padding: 8px;
+}
+
+.container h5 {
+  color: #00FF88;
+  font-size: 16px;
+  font-weight: 500px;
+  padding: 8px;
+}
+
+.container iframe {
+  border-radius: 10px;
+  width: 250px;
+  height: 214px;
+}
+
+.container .card {
+  border-radius: 15px;
+  width: 250px;
+  height: 440px;
+  background-color: #250D44;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.container h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #250D44;
+  border-radius: 30px;
+  padding: 30px;
+  width: 1100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-in-host {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.content h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.content p {
+  color: #b5b1b1;
+  margin-top: 14px;
+  margin-bottom: 18px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  background-color: transparent;
+}
+
+.social-icons img {
+  width: 20px;
+
+}
+
+.social-icons div {
+  border: 1px solid gray;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+
+footer {
+  background-image: url(assets/footer-bg.png);
+  width: 100%;
+  margin-top: 20px;
+  height: 312px;
+  background-size: cover;
+}
+
