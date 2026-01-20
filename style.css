@@ -83,17 +83,17 @@ main .img-2 {
   left: 570px;
 }
 
-main h4{
-    background-color: #00FF88;
-    position: absolute;
-    top: 135px;
-    left:725px ;
-    border-radius: 10000px;
-    height: 30px;
-    width: 60px;
-    padding: 10px;
-    padding-bottom: 25px;
-    box-shadow: 0px 0px 50px 1px rgb(76, 213, 76);
+main h4 {
+  background-color: #00FF88;
+  position: absolute;
+  top: 135px;
+  left: 725px;
+  border-radius: 10000px;
+  height: 30px;
+  width: 60px;
+  padding: 10px;
+  padding-bottom: 25px;
+  box-shadow: 0px 0px 50px 1px rgb(76, 213, 76);
 }
 
 main .wave {
@@ -196,8 +196,9 @@ main .wave {
 
 
 .why-choose {
+  background-color: #230E3D;
   padding: 80px 40px;
-  max-width: 1200px;
+  width: 100%;
   margin: auto;
 }
 
@@ -436,3 +437,41 @@ footer i {
   color: white;
 }
 
+@keyframes anime {
+  to {
+    transform: rotate(0deg);
+  }
+
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+.img-2:hover {
+  animation: anime 3s linear infinite;
+}
+
+nav ul li:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s linear;
+}
+
+.nav-btn:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s linear;
+}
+
+.cad:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s linear;
+}
+
+.btn-1:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s linear;
+}
+
+.btn-2:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s linear;
+}
