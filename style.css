@@ -466,12 +466,147 @@ nav ul li:hover {
   transition: transform 0.3s linear;
 }
 
-.btn-1:hover{
+.btn-1:hover {
   transform: scale(1.05);
   transition: transform 0.3s linear;
 }
 
-.btn-2:hover{
+.btn-2:hover {
   transform: scale(1.05);
   transition: transform 0.3s linear;
 }
+
+/* Responsive for mobile */
+@media (max-width: 576px) {
+
+  /* ================= NAVBAR ================= */
+  header {
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  /* hide nav items */
+  nav ul {
+    display: none;
+  }
+
+  /* hide subscribe button */
+  .nav-btn {
+    display: none;
+  }
+
+  /* hamburger icon */
+  @media (max-width: 576px) {
+    header::after {
+      content: "\f0c9";
+      /* hamburger icon */
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      font-size: 26px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  /* ================= BANNER ================= */
+  main {
+    height: auto;
+    padding-bottom: 80px;
+  }
+
+  /* FORCE HIDE BANNER IMAGES */
+  .img-1,
+  .img-2,
+  main h4 {
+    display: none !important;
+  }
+
+  .p-wave h2 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .p-wave p {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  /* ================= PODCAST STATS ================= */
+  .k {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: center;
+  }
+
+  /* ================= GRID CARDS ================= */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .card.tall,
+  .card.wide,
+  .card.one,
+  .card.two,
+  .card.last {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+
+  /* ================= EPISODES ================= */
+  .card-container {
+    flex-direction: column;
+  }
+
+  /* ================= HOST ================= */
+  .host {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 180px;
+  }
+
+  /* ================= FOOTER ================= */
+  footer .spot {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  footer h1 {
+    font-size: 36px;
+  }
+}
+
+
+
+
+/* Responsive for Medium Device */
+/* @media (max-width: 992px) {
+
+  header {
+    padding: 20px 40px;
+    gap: 40px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card.wide,
+  .card.one,
+  .card.two {
+    grid-column: span 2;
+  }
+
+  .card-container {
+    flex-wrap: wrap;
+  }
+
+  .host {
+    width: 90%;
+  }
+} */
