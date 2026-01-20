@@ -529,7 +529,7 @@ nav ul li:hover {
     border-top: 1px solid #444;
   }
 
-  /* ================= HERO / BANNER ================= */
+  /*  Hero */
   main {
     height: auto;
     padding-bottom: 100px;
@@ -561,7 +561,7 @@ nav ul li:hover {
     margin-top: 10px;
   }
 
-  /* ================= PODCAST SECTION ================= */
+  /* poscast */
   .podcast {
     height: auto;
     padding: 60px 20px;
@@ -570,8 +570,7 @@ nav ul li:hover {
   .podcast h2 {
     font-size: 32px;
   }
-
-  /* 2x2 stats */
+ 
   .k {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -579,7 +578,7 @@ nav ul li:hover {
     text-align: center;
   }
 
-  /* ================= WHY CHOOSE ================= */
+  /* why chose */
   .cards {
     grid-template-columns: 1fr;
   }
@@ -594,7 +593,7 @@ nav ul li:hover {
     grid-row: span 1 !important;
   }
 
-  /* ================= EPISODES ================= */
+  /* episodes */
   .container {
     padding: 80px 20px;
   }
@@ -609,7 +608,7 @@ nav ul li:hover {
     width: 100%;
   }
 
-  /* ================= HOST ================= */
+  /* host part */
   .host {
     flex-direction: column;
     width: 100%;
@@ -620,7 +619,7 @@ nav ul li:hover {
     width: 180px;
   }
 
-  /* ================= FOOTER ================= */
+  /*  footer */
   footer {
     height: auto;
     padding-bottom: 40px;
@@ -634,36 +633,4 @@ nav ul li:hover {
     flex-direction: column;
     gap: 12px;
   }
-
 }
-
-
-
-
-
-/* Responsive for Medium Device */
-/* @media (max-width: 992px) {
-
-  header {
-    padding: 20px 40px;
-    gap: 40px;
-  }
-
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .card.wide,
-  .card.one,
-  .card.two {
-    grid-column: span 2;
-  }
-
-  .card-container {
-    flex-wrap: wrap;
-  }
-
-  .host {
-    width: 90%;
-  }
-} */
