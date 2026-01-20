@@ -8,9 +8,10 @@ body {
   background-color: #1A0B2E;
 }
 
-.tech h2{
+.tech h2 {
   font-size: 32px;
 }
+
 header {
   background-color: #1A0B2E;
   display: flex;
@@ -50,6 +51,7 @@ header nav ul {
 
 }
 
+
 .nav-btn i {
   padding-top: 2px;
 }
@@ -79,6 +81,19 @@ main .img-2 {
   position: absolute;
   top: 180px;
   left: 570px;
+}
+
+main h4{
+    background-color: #00FF88;
+    position: absolute;
+    top: 135px;
+    left:725px ;
+    border-radius: 10000px;
+    height: 30px;
+    width: 60px;
+    padding: 10px;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 50px 1px rgb(76, 213, 76);
 }
 
 main .wave {
@@ -180,6 +195,69 @@ main .wave {
 /* Grid section */
 
 
+.why-choose {
+  padding: 80px 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.why-choose h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background: #2e1458;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgb(170, 167, 167);
+}
+
+.card.tall {
+  grid-row: span 2;
+}
+
+.card.wide {
+  grid-column: span 2;
+}
+
+.card.last {
+  grid-column: span 1;
+}
+
+.card.one {
+  grid-column: span 2;
+}
+
+.card.two {
+  grid-column: span 2;
+}
+
 
 
 
@@ -232,7 +310,7 @@ main .wave {
   height: 214px;
 }
 
-.container .card {
+.container .cad {
   border-radius: 15px;
   width: 250px;
   height: 440px;
@@ -357,3 +435,4 @@ footer .foot {
 footer i {
   color: white;
 }
+
