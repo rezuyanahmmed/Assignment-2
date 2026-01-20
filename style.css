@@ -8,7 +8,9 @@ body {
   background-color: #1A0B2E;
 }
 
-
+.tech h2{
+  font-size: 32px;
+}
 header {
   background-color: #1A0B2E;
   display: flex;
@@ -16,7 +18,6 @@ header {
   align-items: center;
   height: 92px;
   width: 100%;
-
   gap: 314px;
   padding: 30px 346px 30px 200px;
 }
@@ -27,7 +28,9 @@ header .tech {
 }
 
 header span {
-  color: #FB09B4;
+  background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header nav ul {
@@ -38,7 +41,7 @@ header nav ul {
 }
 
 .nav-btn button {
-  background-color: #FB09B4;
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
   color: white;
   border: none;
   border-radius: 50px;
@@ -104,7 +107,7 @@ main .wave {
 }
 
 .p-wave .btn-1 {
-  background-color: #FB09B4;
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
   border-radius: 50px;
   padding: 8px;
   border: none;
@@ -157,6 +160,7 @@ main .wave {
 
 .podcast p {
   font-size: 14px;
+  padding-top: 16PX;
   font-weight: 300px;
   color: rgb(190, 186, 186);
 }
@@ -314,3 +318,42 @@ footer {
   background-size: cover;
 }
 
+footer .main {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+footer h1 {
+  font-size: 60px;
+  color: white;
+  margin-top: 85px;
+}
+
+footer .extra-color {
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer span {
+  margin-top: 15px;
+  color: rgb(197, 195, 195);
+}
+
+footer .spot {
+  display: flex;
+  gap: 40px;
+}
+
+footer .foot {
+  color: rgb(198, 197, 197);
+  margin-top: 30px;
+}
+
+footer i {
+  color: white;
+}
